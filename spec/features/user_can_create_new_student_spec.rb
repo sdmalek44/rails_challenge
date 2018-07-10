@@ -10,7 +10,7 @@ describe 'features' do
 
       click_on 'Create Student'
 
-      expect(current_path).to eq(students_path)
+      expect(current_path).to eq(student_path(1))
       expect(page).to have_content(student)
     end
   end
