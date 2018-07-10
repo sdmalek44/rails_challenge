@@ -6,7 +6,7 @@ describe 'features' do
       visit new_student_path
 
       student = 'steve'
-      fill_in :name, with: student
+      fill_in 'student[name]', with: student
 
       click_on 'Create Student'
 
