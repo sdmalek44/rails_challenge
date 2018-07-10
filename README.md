@@ -1,24 +1,24 @@
 # README
 
 Let's start by creating Students.
-
+<!--
 #### User Can See an Individual Student
 
 ```
 As a user
 When I visit `/students/:id`
 I see the name of a student
-```
+``` -->
 
-#### User Can See a List of Students
+<!-- #### User Can See a List of Students
 
 ```
 As a user
 When I visit `/students`
 I see a list of student names
-```
+``` -->
 
-#### User Can Create a Student
+<!-- #### User Can Create a Student
 
 ```
 As a user
@@ -27,8 +27,8 @@ And I fill in name
 And I click submit
 I am on the student show page
 And I see that student's name
-```
-
+``` -->
+<!--
 #### User Can Edit a Student
 
 ```
@@ -38,9 +38,9 @@ And I enter a new name
 And I click submit
 I am on the student show page
 And I can see that student's new name
-```
+``` -->
 
-#### User Can Delete a Student
+<!-- #### User Can Delete a Student
 
 ```
 As a user
@@ -48,9 +48,9 @@ When I visit `/students`
 And I click "Delete" next to a student's name
 I see the students index
 And that student's name is no longer on the page
-```
+``` -->
 
-#### Navigation
+<!-- #### Navigation
 
 ```
 As a user
@@ -63,13 +63,13 @@ As a user
 When I visit `/students`
 And I click on a student's name
 I am taken to a show page for that student
-```
+``` -->
 
 ### Addresses (One-to-Many)
 
 Let's add addresses to this application. In this particular scenario assume that a student can have many addresses (i.e. maybe they have a current address, a permanent address, a parent address, a summer address, etc.), and that an address belongs to *only* one student. This might not be a real-life situation (what about brothers and sisters at the same school?), but go with it. For today, this will be a one-to-many relationship.
 
-#### Creating a New Address
+<!-- #### Creating a New Address
 
 ```
 As a user
@@ -82,15 +82,15 @@ And I fill in zip code with a zip code
 And I click submit
 I am taken to that student's show page
 And I see the description, street, city, state, and zip on that page
-```
+``` -->
 
-#### Student has Many Addresses
+<!-- #### Student has Many Addresses
 
 ```
 As a user
 When I visit `/students/:id`
 I see all addresses associated with that student (e.g. if that student has two addresses, I see both)
-```
+``` -->
 
 ### Courses (Many-to-Many)
 
