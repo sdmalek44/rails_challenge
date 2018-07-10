@@ -1,2 +1,3 @@
-class Address < ApplicationController
+class Address < ApplicationRecord
+  belongs_to :students
 end
