@@ -9,6 +9,8 @@ describe 'when user visits /students' do
 
     click_on "delete #{student2.name}"
 
-    
+    expect(current_path).to eq(students_path)
+    expect(page).to have_content(student1.name)
+    expect(page).to_not have_content(student2.name)
   end
 end
