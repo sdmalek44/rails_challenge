@@ -50,7 +50,7 @@ I see the students index
 And that student's name is no longer on the page
 ``` -->
 
-#### Navigation
+<!-- #### Navigation
 
 ```
 As a user
@@ -63,7 +63,7 @@ As a user
 When I visit `/students`
 And I click on a student's name
 I am taken to a show page for that student
-```
+``` -->
 
 ### Addresses (One-to-Many)
 
