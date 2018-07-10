@@ -6,3 +6,6 @@
 <%= address.state %>
 <%= address.zip_code %>
 <% end %>
+<% @student.courses.each do |course| %>
+<%= course.name %>
+<% end %>

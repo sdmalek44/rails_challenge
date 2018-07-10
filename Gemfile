@@ -42,7 +42,7 @@ group :development, :test do
   gem 'active_designer'
   gem 'simplecov'
   gem 'database_cleaner'
-
+  gem 'simplecov'
 end
 
 group :development do

@@ -95,14 +95,14 @@ I see all addresses associated with that student (e.g. if that student has two a
 ### Courses (Many-to-Many)
 
 Now we want to check that a student can be enrolled in classes. For this section, don't worry about creating a new course. Assume that all courses will be created in the database by an administrator. Also assume that all enrollments (e.g. the particular courses a student will be taking) will be created by an adminstrator. For now, implement the stories below that allow you to view existing relationships.
-
+<!--
 ### Student has Many Courses
 
 ```
 As a user
 When I visit `/students/:id`
 I can see a list of courses that student is taking
-```
+``` -->
 
 ### Courses Have Many Students
 
