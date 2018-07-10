@@ -17,6 +17,15 @@ class StudentsController < ApplicationController
     @students = Student.all
   end
 
+  def edit
+    @student = Student.find(params[:id])
+  end
+
+  def update
+    @student = Student.update(params[:id], student_params)
+    redirect_to student_path(@student)
+  end
+
   private
 
   def student_params
