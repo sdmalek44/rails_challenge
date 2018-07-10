@@ -13,6 +13,10 @@ class StudentsController < ApplicationController
     @student = Student.find(params[:id])
   end
 
+  def index
+    @students = Student.all
+  end
+
   private
 
   def student_params
