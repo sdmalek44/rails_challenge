@@ -10,15 +10,15 @@ When I visit `/students/:id`
 I see the name of a student
 ```
 
-#### User Can See a List of Students
+<!-- #### User Can See a List of Students
 
 ```
 As a user
 When I visit `/students`
 I see a list of student names
-```
+``` -->
 
-#### User Can Create a Student
+<!-- #### User Can Create a Student
 
 ```
 As a user
@@ -27,7 +27,7 @@ And I fill in name
 And I click submit
 I am on the student show page
 And I see that student's name
-```
+``` -->
 
 #### User Can Edit a Student
 
