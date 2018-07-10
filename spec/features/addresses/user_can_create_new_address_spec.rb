@@ -10,7 +10,7 @@ describe 'when user visits /students/#/addresses/new' do
     fill_in 'address[street]', with: 'bbb'
     fill_in 'address[city]', with: 'ccc'
     fill_in 'address[state]', with: 'ddd'
-    fill_in 'address[zip]', with: 1
+    fill_in 'address[zip_code]', with: 1
     click_on 'Create Address'
 
     expect(current_path).to eq(student_path(student))
